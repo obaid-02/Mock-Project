@@ -40,7 +40,7 @@ with open('plots/inflation_four_countries.json') as f3:
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 # App layout with navigation
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),

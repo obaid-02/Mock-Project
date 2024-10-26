@@ -400,5 +400,7 @@ def display_page(pathname):
 
 # Run the app
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000, debug=True)
+    from werkzeug.serving import run_simple
+    run_simple('0.0.0.0', 10000, app.server, use_reloader=True, use_debugger=True)
+
 

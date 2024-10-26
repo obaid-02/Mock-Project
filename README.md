@@ -21,8 +21,10 @@ Before running the dashboard, ensure you have the following installed:
 ## Installation
 
 1. **Clone the repository:** ```git clone https://github.com/obaid-02/Mock-Project.git```
-2. Go into the Mock-Project directory.
-3. Run ***app.py*** file to launch the Dashboard.
+2. **Install the requiremts:**```pip install -r requirements.txt```
+3. Go into the Mock-Project directory.
+4. Run ***app.py*** file to launch the Dashboard.
+5. Go to **http://127.0.0.1:8050** to view the dashboard.
 
 ## Usage
 - **Navigating the Dashboard:** Use the navigation menu to switch between different pages.

@@ -1,0 +1,41 @@
+nav{
+    border-radius: 10px;
+    background-color: #474747;
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+}
+nav > a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    
+}
+nav > a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#Pintro{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    /* background-color: beige; */
+    height: fit-content;
+    /* width: 500px; */
+    text-align: justify;
+
+}
+@keyframes colorChange {
+    0% { color: #000; }
+    50% { color: #f00; }
+    100% { color: #0aff89; }
+}
+
+.color-change {
+    animation: colorChange 3s infinite;
+}
+
+
+

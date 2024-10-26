@@ -400,4 +400,5 @@ def display_page(pathname):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
+
